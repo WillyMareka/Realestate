@@ -83,7 +83,8 @@ class M_buildings extends MY_Model {
     switch ($type) {
       case 'delete':
         $data['is_deleted'] = 1; 
-        break;
+        
+      break;
       
       case 'update':
         $data = $this->input->post();

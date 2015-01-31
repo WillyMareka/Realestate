@@ -18,9 +18,15 @@ class template extends MY_Controller
 		$this->load->view('admin_template', $data);
 	}
 
+<<<<<<< HEAD
 	public function call_front_end_template($data=NULL)
 	{
 		$this->load->view('front_end_template', $data);
+=======
+	public function call_auth_template($data=NULL)
+	{
+		$this->load->view('login_template', $data);
+>>>>>>> 8a74bb5793251f4f1aef933c6095e1ab62e52a77
 	}
 }
 ?>
